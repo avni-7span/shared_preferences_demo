@@ -1,4 +1,5 @@
 import 'package:demo_sharedpreference/one_counter/counter_screen.dart';
+import 'package:demo_sharedpreference/two_user_info_save/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,8 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: CounterScreen(),
+    return MaterialApp(
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
